@@ -1,0 +1,10 @@
+header {
+    background-color: rgb(87, 85, 72);
+    color: #fff;
+    padding: 20px;
+    bottom: 50px;
+  }
+mainp li {
+    display: inline-block;
+    margin-right: 20px;
+  }

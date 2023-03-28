@@ -1,0 +1,83 @@
+/*universal color*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+/*header*/
+header{
+    background-image: url(../images/image-1.jpg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    color: aqua;
+}
+/*title of header*/
+.title{
+    background-color: rgb(186, 244, 144 ,0.2);
+}
+
+.title h1{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(243, 213, 167);
+}
+.title p{
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+/*banner*/
+.banner{
+    position: absolute;
+    bottom: -40px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: rgb(222, 149, 12);
+    background-color: antiquewhite;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*image to equal size*/
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.main{
+    background-image: url(../images/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: #E5E0FF;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+    background-color:#8DCBE6;
+    padding: 20px 5px;
+}
+
+
+footer .footer-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 17px wheat;
+}
+
+/*8.carousel-inner{
+    height: 400px;
+}*/
+
+body{
+    background-color: #BBD6B8;
+}
